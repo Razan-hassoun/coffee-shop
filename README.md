@@ -33,3 +33,23 @@ Full-stack application for a coffee shop using:
 ### 1. Clone the repo
 ```bash
 git clone https://github.com/your-username/your-repo.git
+
+2. Install backend dependencies
+cd backend
+npm install
+
+3. Install frontend dependencies
+cd ../frontend
+npm install
+
+4. Create a .env file in backend:
+MONGO_URI=your_mongo_connection_string
+JWT_SECRET=your_secret
+PORT=5000
+
+5. Run the backend
+npm run dev
+
+6. Run the frontend
+npm start
+
